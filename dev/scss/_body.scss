@@ -1,0 +1,75 @@
+a {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand,
+h3 {
+    color: $dark-blue !important;
+}
+
+a.nav-link.actiave {
+    color:  $light-blue;
+}
+
+.breadcrumb-item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+
+    > a {
+    text-decoration: none;
+    color:  $dark-blue;
+    }
+}
+
+.breadcrumb-item.active {
+    color: $light-blue !important;
+}
+
+h1,
+h4 {
+    color: $light-blue !important;
+}
+
+.list-group-item {
+    color: $dark-blue !important;
+    padding: 20px 0 0 0;
+}
+
+.input-group {
+    background: linear-gradient(180deg, #0C68A4 0%, #05376B 100%);
+}
+
+a.card-link {
+    text-decoration: none;
+}
+
+.dark-blue {
+    color: $dark-blue;
+}
+
+.light-blue {
+    color: $light-blue;
+}
+
+.gray {
+    color: grey;
+}
+
+.f-lt {
+    font-weight: 300;
+}
+
+.f-bd {
+    font-weight: 600;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #0C68A4 0%, #05376B 100%);
+
+}
+.gradient2 {
+    background: linear-gradient(180deg, #A4DAF0 0%, #6BB3DD 100%);
+    overflow: hidden;
+}
